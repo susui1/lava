@@ -24,4 +24,3 @@ cat $HOME/.lava/config/priv_validator_key.json
 #For check synce :
 ————————————
 
-lavad status 2>&1 | jq .SyncInfo.catching_up
